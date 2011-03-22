@@ -18,7 +18,7 @@ from distutils.core import setup
 import os, re
 
 PKG='ipaddr'
-VERSIONFILE = os.path.join('_version.py')
+VERSIONFILE = os.path.join('ipaddr/_version.py')
 verstr = "unknown"
 try:
     verstrline = open(VERSIONFILE, "rt").read()
